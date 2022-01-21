@@ -1,4 +1,4 @@
-# Enhanced V-J Vehicle detection method from UAV imagery
+# 1.Enhanced V-J Vehicle detection method from UAV imagery
 
 The aim is to track the vehicles on the road from an UAV using
 Viola-Jones technique. First the images are obtained from the 
