@@ -27,5 +27,26 @@ The method is sensitive to lighting condition. So the captured
 images should be pre-processed to overcome illumnation variation.
 
 
+# Vehicle Detectin using Cascaded Support Vector Machine and Gaussian Mixture Model
 
+The aim ohiclf the system is to develop an algorithm that will autonomously
+detect vehicles from UAV images. Here the background of the image
+is removed first suign GMM which will reduce computational complexity by 
+reducing the search space. The next step is feature extraction by means
+of edge detection, corner detection, color transformation and classification.
+The third step is SVM based vehicle classification.SVM provides a robust, 
+accurate and effective technique for pattern recognition and classification.
+The last step is Detection enhancement using GMM which is kind of fine
+tuning to get hign performance.
 
+## Advantages
+
+The cascaded SVM-GMM classifier method ensure higher performance when 
+compared to the single classifier based vehicle detection algorithm.
+Proposed system gives 87.5% hit rate, 94.7% accuracy and 100% precision 
+values.
+
+## Disadvantages
+
+The main challenge is the dataset complexity. Since the image inputs 
+are depending upon the height, Position and Tilting of Cameras.
