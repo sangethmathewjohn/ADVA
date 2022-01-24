@@ -29,7 +29,7 @@ images should be pre-processed to overcome illumnation variation.
 
 # Vehicle Detectin using Cascaded Support Vector Machine and Gaussian Mixture Model
 
-The aim ohiclf the system is to develop an algorithm that will autonomously
+The aim of the system is to develop an algorithm that will autonomously
 detect vehicles from UAV images. Here the background of the image
 is removed first suign GMM which will reduce computational complexity by 
 reducing the search space. The next step is feature extraction by means
