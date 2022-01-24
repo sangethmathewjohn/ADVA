@@ -27,7 +27,7 @@ The method is sensitive to lighting condition. So the captured
 images should be pre-processed to overcome illumnation variation.
 
 
-# Vehicle Detectin using Cascaded Support Vector Machine and Gaussian Mixture Model
+# 2.Vehicle Detectin using Cascaded Support Vector Machine and Gaussian Mixture Model
 
 The aim of the system is to develop an algorithm that will autonomously
 detect vehicles from UAV images. Here the background of the image
